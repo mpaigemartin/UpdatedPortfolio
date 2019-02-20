@@ -1,0 +1,71 @@
+body {
+    background-image: url(/backgrounds/luke-ft-1156421-unsplash.jpg);
+    background-size: 100%;
+}
+
+.wrapper {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 10px;
+}
+
+.logo {
+    width: 50px;
+    height: 10px
+}
+
+.name {
+    text-align: center;
+}
+
+.main {
+    background-color: white;
+    width: 960px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 25px;
+    box-shadow: 10px 10px 10px;
+    opacity: .95;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bio {
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.headshot {
+    width:250px;
+    height:250px;
+    margin-left:36%;
+}
+
+.gallery {
+    margin: 9px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    float: left;
+}
+
+.btn {
+    margin-left:46%;
+}
+
+
+.footer {
+    background-color: black;
+    color:whitesmoke;
+    width: 100%;
+    height: 20%;
+    padding-top: 20px;
+    text-align: center;
+    opacity: .60;
+}
