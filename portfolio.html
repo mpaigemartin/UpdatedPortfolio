@@ -1,63 +1,125 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="wrapper">
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        <div class="top-bar">
-            <!-- <img class="logo" src="logo.png" alt="logo"> -->
-            <h1 class="name">M P M</h1>
-        </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/mpaigemartin">GitHub</a>
+        <a href="https://www.linkedin.com/in/madelyn-martin-697471177/"
+          >LinkedIn</a
+        >
+        <a href="">Resume</a>
+      </div>
+      <img class="bar" onclick="openNav()" src="588a6507d06f6719692a2d15.png" />
+
+      <div class="top-bar">
+        <!-- <img class="logo" src="logo.png" alt="logo"> -->
+        <h1 class="name">M P M</h1>
+      </div>
     </header>
     <main class="main">
-        <div class="gallery" id="resumes">
-            <a target="_blank" href="https://www.dropbox.com/sh/gqeqtlqh5sg8ofx/AAD-XgoISwIVGTIPDKD1MzdSa?dl=0">
-            <img src="./portfolio imgs/creative resumes.png" alt="resumes" width="285" height="185">
-            </a>
-        </div> 
-        <div class="gallery" id="web">
-            <a target="_blank" href="https://stefeifert.github.io/Beer_Quest/">
-            <img src="./portfolio imgs/webdev.png" alt="web" width="285" height="185">
-            </a>
-        </div> 
-        <div class="gallery" id="design">
-            <a target="_blank" href="https://www.dropbox.com/sh/nogqrk1mbenwc4q/AACBzZbVEUCN7d5YCUMGmkGna?dl=0">
-            <img src="./portfolio imgs/graphicdesign.png" alt="design" width="285" height="185">
-            </a>
-        </div> 
-        <div class="gallery" id="art">
-            <a target="_blank" href="https://www.dropbox.com/sh/bzd5zwqyzcjttel/AABE5rTiMqRZYSS1782vwOwoa?dl=0">
-            <img src="./portfolio imgs/art.png" alt="art" width="285" height="185">
-            </a>
-        </div> 
-        <div class="gallery" id="app">
-            <a target="_blank" href="https://timothywadecook.github.io/NYT-Search-Engine/">
-            <img src="./portfolio imgs/app.png" alt="app" width="285" height="185">
-            </a>
-        </div> 
-        <div class="gallery" id="photo">
-            <a target="_blank" href="https://www.dropbox.com/sh/4qjw6gszzsaoox7/AABT4V42UR-0swdjjt3Zo-B-a?dl=0">
-            <img src="./portfolio imgs/photoex.png" alt="photos" width="285" height="185">
-            </a>
-        </div> 
+      <div class="gallery" id="resumes">
+        <a
+          target="_blank"
+          href="https://www.dropbox.com/sh/gqeqtlqh5sg8ofx/AAD-XgoISwIVGTIPDKD1MzdSa?dl=0"
+        >
+          <img
+            src="./portfolio imgs/creative resumes.png"
+            alt="resumes"
+            width="285"
+            height="185"
+          />
+        </a>
+      </div>
+      <div class="gallery" id="web">
+        <a target="_blank" href="https://stefeifert.github.io/Beer_Quest/">
+          <img
+            src="./portfolio imgs/webdev.png"
+            alt="web"
+            width="285"
+            height="185"
+          />
+        </a>
+      </div>
+      <div class="gallery" id="design">
+        <a
+          target="_blank"
+          href="https://www.dropbox.com/sh/nogqrk1mbenwc4q/AACBzZbVEUCN7d5YCUMGmkGna?dl=0"
+        >
+          <img
+            src="./portfolio imgs/graphicdesign.png"
+            alt="design"
+            width="285"
+            height="185"
+          />
+        </a>
+      </div>
+      <div class="gallery" id="art">
+        <a
+          target="_blank"
+          href="https://www.dropbox.com/sh/bzd5zwqyzcjttel/AABE5rTiMqRZYSS1782vwOwoa?dl=0"
+        >
+          <img
+            src="./portfolio imgs/art.png"
+            alt="art"
+            width="285"
+            height="185"
+          />
+        </a>
+      </div>
+      <div class="gallery" id="app">
+        <a
+          target="_blank"
+          href="https://timothywadecook.github.io/NYT-Search-Engine/"
+        >
+          <img
+            src="./portfolio imgs/app.png"
+            alt="app"
+            width="285"
+            height="185"
+          />
+        </a>
+      </div>
+      <div class="gallery" id="photo">
+        <a
+          target="_blank"
+          href="https://www.dropbox.com/sh/4qjw6gszzsaoox7/AABT4V42UR-0swdjjt3Zo-B-a?dl=0"
+        >
+          <img
+            src="./portfolio imgs/photoex.png"
+            alt="photos"
+            width="285"
+            height="185"
+          />
+        </a>
+      </div>
     </main>
     <footer class="footer">
-        <div class="container">
-            <p>Copyright MPMDesigns @ 2019</p>
-        </div>
+      <div class="container">
+        <p>
+          (770) - 940 - 6308 | Copyright MPMDesigns @ 2019 |
+          mpaigemartin@gmail.com
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
